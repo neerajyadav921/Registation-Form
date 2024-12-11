@@ -1,0 +1,98 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .container {
+    background-color: white;
+    width: 400px;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .form-header {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .form-header h1 {
+    color: #00b8d4;
+    margin: 0;
+  }
+  
+  .form-header p {
+    color: #666;
+    font-size: 14px;
+  }
+  
+  .evaluation-form .form-group {
+    margin-bottom: 15px;
+  }
+  
+  .evaluation-form label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .evaluation-form label span {
+    color: red;
+  }
+  
+  .evaluation-form input[type="text"],
+  .evaluation-form input[type="email"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 14px;
+    box-sizing: border-box;
+  }
+  
+  .radio-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: normal;
+    color: #555;
+  }
+  
+  .rating span {
+    font-size: 24px;
+    color: #ccc;
+    cursor: pointer;
+  }
+  
+  .rating span:hover,
+  .rating span:hover ~ span {
+    color: #ffcc00;
+  }
+  
+  .submit-btn {
+    background-color: #00b8d4;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+    font-size: 16px;
+  }
+  
+  .submit-btn:hover {
+    background-color: #0099b8;
+  }
+  
+  @media screen and (max-width: 480px) {
+    .container {
+      width: 95%;
+    }
+  }
+  
